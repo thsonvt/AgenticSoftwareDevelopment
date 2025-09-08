@@ -56,15 +56,28 @@ At scale, debugging is not just inefficient, it's practically impossible. Debugg
 
 ### **When is it OK to vibe code?**&#x20;
 
-
+* Prototypes and MVPs
+* Learning new frameworks quickly
+* Automating repetitive tasks
+* Throwaway weekend projects
 
 > <mark style="background-color:$primary;">**Projects should be low stakes**</mark>. Think about how much harm the code you are writing could cause if it has bugs or security vulnerabilities. Could somebody be harmed—damaged reputation, lost money or something worse? This is particularly important if you plan to build software that will be used by other people!
 
 [https://simonwillison.net/2025/Mar/19/vibe-coding/](https://simonwillison.net/2025/Mar/19/vibe-coding/)
 
+### **When to Avoid:**
+
+* Production systems with user data
+* Mission-critical applications
+* If regulators come knocking, good luck explaining that AI wrote your security vulnerabilities
+
 ### Conclusion
 
-Think of vibe coding like this analogy: **It's like hiring a junior developer who's incredibly fast but needs constant supervision** [Is Vibe Coding Bad? What Developers Need to Know](https://www.codecademy.com/resources/blog/what-is-vibe-coding-is-it-bad). The key is knowing when to trust, when to verify, and when to step in.
+Think of vibe coding like this analogy: **It's like hiring a junior developer who's incredibly fast but needs constant supervision** .The key is knowing when to trust, when to verify, and when to step in.
+
+We should think vibe coding as **"Powerful Training Wheels"** - it democratizes creation but shouldn't replace fundamental understanding. The future belongs to developers who can orchestrate AI rather than just code alongside it.
+
+
 
 
 
