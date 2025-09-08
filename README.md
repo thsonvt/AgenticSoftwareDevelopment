@@ -18,7 +18,7 @@ description: The term coined by Andrej Karpathy on 03/02/2025
 
 * One of the biggest barriers to that profession is the[ **incredibly steep initial learning curv**<mark style="color:$primary;">**e**</mark>](#user-content-fn-1)[^1]—vibe coding shaves that initial barrier down to almost flat [Not all AI-assisted programming is vibe coding (but vibe coding rocks)](https://simonwillison.net/2025/Mar/19/vibe-coding/)
 * Great for prototyping and exploration
-* **Democratizes coding for non-technical people**
+* Democratizes coding for non-technical people
 
 <details>
 
@@ -32,13 +32,42 @@ description: The term coined by Andrej Karpathy on 03/02/2025
 
 ### **The Problems:**
 
-* You paste AI-generated code, it kinda works, and you move on. But here's the kicker: **Nobody — including you — knows what the code actually does** [Don’t be a Vibe Coder. Problems with Vibe Coding | by Mehul Gupta | Data Science in Your Pocket | Medium](https://medium.com/data-science-in-your-pocket/dont-be-a-vibe-coder-30fa7c525971)
-* **A "vibe coder" announced his SaaS was under attack**. His business, built entirely with AI assistance and "zero hand-written code," was experiencing bypassed subscriptions, maxed-out API keys, and database corruption [Vibe Coding is a Dangerous Fantasy | N’s Blog](https://nmn.gl/blog/vibe-coding-fantasy)
+#### The "Zero Understanding" Trap
+
+**A "vibe coder" announced his SaaS was under attack**. His business, built entirely with AI assistance and "zero hand-written code," was experiencing bypassed subscriptions, maxed-out API keys, and database corruption [Vibe Coding is a Dangerous Fantasy | N’s Blog](https://nmn.gl/blog/vibe-coding-fantasy)
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-* At scale, debugging is not just inefficient, it's practically impossible [The case against vibe coding | TheServerSide](https://www.theserverside.com/tip/The-case-against-vibe-coding)
+#### **Security Blindness**
+
+If your app deals with user data, payments, or sensitive info, you CANNOT afford AI's sloppy coding. AI doesn't follow best security practices. You're at risk for SQL injection, XSS attacks, and data leaks.
+
+#### **The "It Kinda Works" Syndrome**
+
+You paste AI-generated code, it kinda works, and you move on. But here's the kicker: **Nobody — including you — knows what the code actually does**&#x20;
+
+#### **Scale Breakdown**
+
+At scale, debugging is not just inefficient, it's practically impossible. Debugging is a vital part of programming, and vibe coding is bad at it.
+
+
 
 <figure><img src=".gitbook/assets/vibe_coding.png" alt=""><figcaption></figcaption></figure>
+
+### **When is it OK to vibe code?**&#x20;
+
+
+
+> <mark style="background-color:$primary;">**Projects should be low stakes**</mark>. Think about how much harm the code you are writing could cause if it has bugs or security vulnerabilities. Could somebody be harmed—damaged reputation, lost money or something worse? This is particularly important if you plan to build software that will be used by other people!
+
+[https://simonwillison.net/2025/Mar/19/vibe-coding/](https://simonwillison.net/2025/Mar/19/vibe-coding/)
+
+### Conclusion
+
+Think of vibe coding like this analogy: **It's like hiring a junior developer who's incredibly fast but needs constant supervision** [Is Vibe Coding Bad? What Developers Need to Know](https://www.codecademy.com/resources/blog/what-is-vibe-coding-is-it-bad). The key is knowing when to trust, when to verify, and when to step in.
+
+
+
+
 
 [^1]: 
